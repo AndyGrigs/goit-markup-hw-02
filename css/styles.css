@@ -24,10 +24,15 @@ body {
 .navbar {
     display: flex;
     align-items: center; /* Align items vertically */
-    gap: 5rem; /* Space between logo, menu, and contact info */
+    gap: 8rem; /* Space between logo, menu, and contact info */
 }
 
-/* Logo */
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
 .logo {
     font-weight: bold;
     font-size: 24px;
