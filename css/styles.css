@@ -11,22 +11,23 @@ body {
     line-height: 1.5;
 }
 
+
+/* Header */
 .header {
-    padding: 20px 40px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f8f8f8;
+    justify-content: space-around; /* Center the navbar horizontally */
+    padding: 10px 0;
 }
 
+/* Navbar */
 .navbar {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    align-items: center;
+    align-items: center; /* Align items vertically */
+    gap: 5rem; /* Space between logo, menu, and contact info */
 }
 
+/* Logo */
 .logo {
     font-weight: bold;
     font-size: 24px;
@@ -34,10 +35,13 @@ body {
     text-decoration: none;
 }
 
+/* Menu */
 .menu {
     display: flex;
     gap: 20px;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .menu-item a {
@@ -46,19 +50,29 @@ body {
     font-weight: 500;
 }
 
+/* Contact Info */
 .contact-info {
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .contact-list {
     display: flex;
     gap: 15px;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
 }
 
 .contact-item a:hover {
     color: #3654D1;
 }
+
 
 /* Hero Section */
 .hero {
