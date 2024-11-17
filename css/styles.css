@@ -156,6 +156,10 @@ a {
   background-color: var(--white-text-color);
 }
 
+.team-member{
+  background-color: var(--white-text-color);
+}
+
 .team-name{
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -180,6 +184,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--secondary-text-color);
 }
 
