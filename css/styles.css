@@ -3,7 +3,7 @@
   --secondary-text-color: #2e2f42;
   --white-text-color: #ffffff;
   --accent-color: #4d5ae5;
-  --accent-hover-color: #9fa6f6;
+  --accent-hover-color: #404bbf;
   --font-size: 16px;
   --cloud-color: #f4f4fd;
 }
@@ -53,11 +53,16 @@ a {
   color: var(--secondary-text-color);
 }
 
-.menu-item li {
+.menu-item a {
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.menu-item a:hover,
+.menu-item a:focus {
+  color: var(--accent-hower-color);
 }
 
 /* Services Section */
